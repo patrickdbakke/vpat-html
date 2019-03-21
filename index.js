@@ -65,7 +65,7 @@ const defaults = {
   page: true,
   colors,
   templates,
-  defaultSupport: NOT_SUPPORTED,
+  defaultSupport: NOT_APPLICABLE,
 };
 
 module.exports = function(support = {}, options = {}) {

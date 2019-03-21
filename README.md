@@ -21,7 +21,8 @@ const html = new VPAT(support);
   },
   '1194.21-a': {},
   '1194.21-a': VPAT.SUPPORTED,
-
+```
+```
   // define lack of support for a given guideline:
   '1194.21-a': null,
   '1194.21-a': undefined,
@@ -30,7 +31,8 @@ const html = new VPAT(support);
     supported: false,
   },
   '1194.21-a': VPAT.NOT_SUPPORTED,
-
+```
+```
   // define n/a for a given guideline: 
   '1194.21-a': NaN,
   '1194.21-a': {
@@ -40,7 +42,8 @@ const html = new VPAT(support);
     supported: NaN,
   },
   '1194.21-a': VPAT.NOT_APPLICABLE,
-
+```
+```
   // define partial support for a given guideline: 
   '1194.21-a': '',
   '1194.21-a': {
@@ -55,30 +58,33 @@ const html = new VPAT(support);
     supported: 'exceptions',
   },
   '1194.21-a': VPAT.SUPPORTED_WITH_EXCEPTIONS,
-
+```
+```
   // define your own text for a given guideline: 
   '1194.21-a': {
     supported: VPAT.SUPPORTED_WITH_EXCEPTIONS,
     text: 'Supports with exceptions: some additional text'
   },
-
+```
+```
   // define remarks or explanations for a given feature: 
   '1194.21-a': {
     notes: '<ul><li>Drag-and-drop operations are not accessible to keyboard-only users</li></ul>',
   },
-
-  /////////////////////////
-
+```
+```
   // define support for a section 
   '1194.21': {
     supports: true,
   },
-  
+```
+```
   // define support for a sub-section 
   '1194.21-a': {
     supports: true,
   },
-
+```
+```
   // define support for a sub-sub-section 
   '1194.23-j-1': {
     supports: true,
