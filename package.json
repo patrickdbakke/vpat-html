@@ -1,6 +1,6 @@
 {
   "name": "vpat-html",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generates a Voluntary Product Accessibility Template (VPAT) html table from json",
   "main": "index.js",
   "scripts": {
