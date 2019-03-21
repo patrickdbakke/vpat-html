@@ -1,0 +1,36 @@
+{
+  "name": "vpat-html",
+  "version": "1.0.0",
+  "description": "Generates a Voluntary Product Accessibility Template (VPAT) html table from json",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patrickdbakke/vpat-html.git"
+  },
+  "keywords": [
+    "vpat",
+    "accessibility",
+    "voluntary",
+    "product",
+    "accessibility",
+    "template",
+    "json",
+    "generator"
+  ],
+  "author": "patrickdbakke",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/patrickdbakke/vpat-html/issues"
+  },
+  "homepage": "https://github.com/patrickdbakke/vpat-html#readme",
+  "devDependencies": {
+    "prettier": "^1.16.4"
+  },
+  "dependencies": {
+    "deepmerge": "^3.2.0",
+    "handlebars": "^4.1.1"
+  }
+}

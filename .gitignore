@@ -1,0 +1,15 @@
+**/node_modules/*
+npm-debug.log
+npm-debug.log.*
+**.env
+
+.DS_Store
+*/**.DS_Store
+.mocha
+*.pem
+*.log
+logs/*
+
+.sass-cache
+.tmp
+.node-persist
