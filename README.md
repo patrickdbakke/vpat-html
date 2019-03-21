@@ -2,6 +2,8 @@
 
 VPAT-HTML is a tool for generating Voluntary Product Accessibility Template html tables from json 🏗ℹ
 
+![preview vpat html](./screenshot.png "preview vpat html")
+
 # Usage
 
 ```
